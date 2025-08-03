@@ -16,3 +16,6 @@
 [submodule "README/AI-For-Beginners"]
 	path = README/AI-For-Beginners
 	url = https://github.com/microsoft/AI-For-Beginners
+[submodule "agents"]
+	path = agents
+	url = https://github.com/contains-studio/agents
