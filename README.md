@@ -22,16 +22,25 @@
 
 ---
 
-## Features
+## 🎯 Key Features
 
-- [ ] 📚 auto doc generation
-- [ ] **CLI Tools** – Typer simplifies automation for AWS resources.  
-- [ ] **Logging** – Loguru ensures structured logs for debugging. 
-- [x] 🐳 CI/CD Optimized Docker Image runs when a new *release* is created pushing to gh registry
-- [x] 🦾 GitHub actions:
-    - [x] auto publish to [`pypi`](https://pypi.org/) on push on `main`
-    - [ ] auto creating a new tag on push on `main`, sync versions
-    - [x] run `tests` and `lint` on `dev` and `main` when a PR is open
+### Core Capabilities
+- [ ] **🏗️ AWS Cloud Foundations Integration** - Battle-tested templates and automation from AWS best practices
+- [ ] **📊 Cloud Foundations Assessment Tool (CFAT)** - Automated AWS account assessment and compliance checking
+- [ ] **🔍 Comprehensive Inventory Scripts** - Full AWS resource discovery and management
+- [ ] **🎛️ Control Tower Automation** - Streamlined AWS Control Tower deployment and management
+- [ ] **🔐 Identity & Access Management** - AWS IAM and SSO/IDC automation
+- [ ] **📝 Centralized Logging** - CloudTrail and Config aggregation patterns
+- [ ] **🏷️ Tagging Governance** - Organizational tagging policies and enforcement
+
+### Technical Excellence
+- **⚡ Lightning-Fast Toolchain** - Powered by `uv` for dependency management, ruff, ty
+- **🐳 Production-Ready PyPi and Containers** - Multi-arch Docker images with Wolfi base
+- **🧪 Comprehensive Testing** - Automated testing with pytest and coverage reporting
+- **📚 Rich Documentation** - MkDocs-powered documentation site
+- **🤖 AI-Ready** - Integration points for OpenAI/Anthropic and local LLMs
+
+---
 
 ## 🚀 Quick Start
 
