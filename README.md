@@ -44,27 +44,20 @@
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
+### 1. Installation via pip (Recommended) or uv (Fastest)
 
 ```bash
-git clone https://github.com/nnthanh101/runbooks.git
-cd runbooks
+pip install runbooks
+
+uv pip install runbooks
 ```
 
-### 2. Install Dependencies and Run CI/CD Pipelines
-
+### 2. Installation via Docker
 ```bash
-echo "Install Python dependencies using UV"
-task install
-
-echo "Run CI/CD pipeline tasks: clean, lint, format, test, and build"
-task ci
-
-echo "Publish the project package to PyPI"
-task publish
+docker run -it nnthanh101/runbooks:latest runbooks --help
 ```
 
-### 3. Run in DevContainer 🐳
+### 3. Run in VSCode's DevContainer 🐳
 
 1. Open the project in **VSCode**.  
 2. Install the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.  
@@ -72,28 +65,6 @@ task publish
    **Command Palette `Ctrl+Shift+P` → Reopen in Container**.  
 
 ---
-
-### [Github Container Registry to store and manage Docker and OCI images](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
-
-1. Check if the image exists in GitHub Packages:
-
-```
-docker pull ghcr.io/nnthanh101/runbooks:latest
-```
-
-2. If the image doesn't exist, build and push it:
-
-```
-docker build -t ghcr.io/nnthanh101/runbooks:latest .
-docker login ghcr.io -u nnthanh -p GH_TOKEN
-docker push ghcr.io/nnthanh101/runbooks:latest
-```
-
-3. Inspect
-
-```
-docker inspect ghcr.io/nnthanh101/runbooks:latest
-```
 
 ## Python Template
 
