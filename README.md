@@ -1,6 +1,6 @@
 # 🔥 CloudOps Automation at Scale 🦅
 
-> 🌟 You can use [CloudOps Automation Runbooks](https://cloudops.oceansoft.io), built on Jupyter Notebooks, to quickly create SRE RunBooks for Runbook Automation and Cloud Infrastructure Management! 🌐
+> 🌟 You can use [Enterprise-grade CloudOps Automation Runbooks](https://cloudops.oceansoft.io), integrating AWS Cloud Foundations & FinOps best practices for DevOps and SRE teams 🌐
 
 <details>
   <summary>🏆 The CloudOps Runbooks 👁️</summary>
@@ -18,7 +18,11 @@
   
 </details>
 
-[![🐍 Runbooks PyPI version](https://img.shields.io/pypi/v/runbooks)](https://pypi.org/project/runbooks/) ![🦾 GitHub Container Registry](https://img.shields.io/github/v/tag/nnthanh101/runbooks:latest?label=GHCR%20Version&color=blue&logo=docker)
+[![PyPI Version](https://img.shields.io/pypi/v/runbooks)](https://pypi.org/project/runbooks/)
+[![Docker Hub](https://img.shields.io/docker/v/nnthanh101/runbooks?label=Docker)](https://hub.docker.com/r/nnthanh101/runbooks)
+[![CI/CD Status](https://github.com/nnthanh101/runbooks/workflows/python-test/badge.svg)](https://github.com/1xOps/CloudOps-Runbooks/actions)
+[![Coverage](https://codecov.io/gh/1xOps/CloudOps-Runbooks/branch/main/graph/badge.svg)](https://codecov.io/gh/1xOps/CloudOps-Runbooks)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 ---
 
